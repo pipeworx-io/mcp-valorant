@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/valorant",
+  "title": "Valorant",
+  "description": "VALORANT reference data MCP (valorant-api.com).",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/valorant",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-valorant",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/valorant/mcp"
+    }
+  ]
+}
