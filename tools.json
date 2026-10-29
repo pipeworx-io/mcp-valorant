@@ -1,0 +1,47 @@
+[
+  {
+    "name": "list_agents",
+    "description": "VALORANT reference data (valorant-api.com) — list playable agents with their roles and abilities. Static game data, keyless. Optionally filter by role.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "role": {
+          "type": "string",
+          "description": "Optional role filter (case-insensitive), e.g. \"Duelist\", \"Controller\", \"Initiator\", \"Sentinel\"."
+        }
+      }
+    }
+  },
+  {
+    "name": "get_agent",
+    "description": "VALORANT reference data (valorant-api.com) — full details for one agent by uuid: description, role, role description, and all abilities. Static game data, keyless.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "uuid": {
+          "type": "string",
+          "description": "Agent uuid (from list_agents)."
+        }
+      },
+      "required": [
+        "uuid"
+      ]
+    }
+  },
+  {
+    "name": "list_weapons",
+    "description": "VALORANT reference data (valorant-api.com) — list weapons with category, cost, fire-rate, and magazine size. Static game data, keyless.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "list_maps",
+    "description": "VALORANT reference data (valorant-api.com) — list maps with tactical description and icon. Static game data, keyless.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
