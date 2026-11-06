@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-valorant",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "VALORANT reference data MCP (valorant-api.com).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "valorant",
     "gatewaySlug": "valorant",
-    "sourceHash": "v1-637f3d08fd833d2e3ad420ad536681265c9d8005f369a32de235e7cb32e3cde1",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-bdbf72832044a7e5156854fbf667a120b5b5987b49e4b8b7a197f944b9405d3f",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }
